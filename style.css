@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.star-rating {
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.star {
+    color: #ddd;
+    transition: color 0.3s ease;
+}
+
+.star:hover,
+.star.selected {
+    color: gold;
+}
+
+.star.selected {
+    color: gold;
+}
